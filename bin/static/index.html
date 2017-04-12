@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app="ngApp">
+<head>
+<meta charset="ISO-8859-1">
+<title>Card</title>
+
+<script src="lib/angular.js"></script>
+<script src="lib/angular-route.js"></script>
+<script src="js/app.js" ></script>
+<script src="js/route.js" ></script>
+</head>
+<body>
+	<div ng-controller="userCtrl">
+		 <h1> This is {{message}}</h1>
+		 <a href="#details">details</a>
+		  <a href="#details2">details2</a>
+	</div>
+	<ng-view/>
+	
+</body>
+</html>
